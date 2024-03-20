@@ -1,0 +1,64 @@
+
+h3{
+    font-family: Cambria;
+    margin: 0 0 200px;
+    padding: auto;
+    font-size: 35px;
+    align-self: center;
+}
+
+textarea{
+    align-items: center;
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: #01080E;
+    font-size: 15px;
+
+}
+
+section{
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BotonEncritar{
+    width: 170px;
+    height: 60px;
+    background: rgb(171, 241, 180);
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.BotonEncritar:hover{
+    width: 150px;
+    height: 60px;
+    background: rgb(241, 185, 218);
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 2s;
+
+}
+
+.BotonDesencriptar{
+    width: 170px;
+    height: 60px;
+    background: rgb(19, 177, 235);
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.BotonDesencriptar:hover{
+    width: 150px;
+    height: 60px;
+    background: rgb(241, 185, 218);
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 2s;
+}
